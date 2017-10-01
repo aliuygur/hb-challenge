@@ -9,7 +9,7 @@
           <h2 v-text="link.title"></h2>
         </div>
         <div>(
-          <a :href="link.link" v-text="link.link"></a>)</div>
+          <a :href="link.link" v-text="link.link" target="_blank"></a>)</div>
         <p>
           <a href="" @click.prevent="upVote">up vote</a> |
           <a href="" @click.prevent="downVote">down vote</a>
