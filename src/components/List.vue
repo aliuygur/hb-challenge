@@ -46,7 +46,6 @@ export default {
     linksPaginated() {
       let offset = (this.pagination.currentPage - 1) * this.pagination.perPage
       let limit = offset + this.pagination.perPage
-      console.log(offset, limit)
       return this.links.slice(offset, limit)
     }
   },
