@@ -17,7 +17,7 @@ npm run dev
 npm run build
 ```
 
-## Projenin bagimliliklari ve aciklamalar
+## Uygulama'nin bagimliliklari
 
 - **vue** angular gibi bir js framework'udur. bu uygulama vuejs ile yapilmistir.
 - **vuex** vue framework'u icin bir state manager'idir. state'leri yonetmek icin kullanilmistir.
@@ -26,9 +26,11 @@ npm run build
 
 Production ortaminda, projenin yukarida belirtilen bagimliliklari disinda bir bagimliligi yoktur.
 
-## Uygulama'nin bagimliliklari
+## Teknik aciklamalar
 
 Uygulama yazilirken mumkun oldugunca **SOLID** prensipleri uygulanmaya calisilmistir.
+
+Uygulama yazilirken "webpack+babel" yardimi ile ES6 sozdizimi kullanilmistir.
 
 uygulama icerisinde asagidaki dosyalari goreceksiniz
 
