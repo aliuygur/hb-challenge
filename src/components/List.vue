@@ -24,7 +24,7 @@ export default {
       orderBy: "",
       pagination: {
         currentPage: 1,
-        perPage: 2
+        perPage: 5
       }
     }
   },
